@@ -11,7 +11,7 @@ class Pendadaran extends CI_Controller {
     }
 
     public function index() {
-        $data['judul'] = "Jadwal Pendadaran";
+        $data['title'] = "Jadwal Pendadaran";
 
         $this->load->model('Pendadaran_model', 'pendadaran');
 
